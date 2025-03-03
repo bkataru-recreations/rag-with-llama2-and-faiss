@@ -4,4 +4,8 @@ version = "0.1.0"
 description = ""
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "langchain>=0.3.14",
+    "markdown>=3.7",
+    "pdfminer-six>=20240706",
+]
